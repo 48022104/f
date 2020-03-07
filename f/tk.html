@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>留言</title>
+		<link href="css/base.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+
+	<body>
+		<div class="black">
+			<div class="tan" id="tan">
+				<div class="txt">您是否确认要发布留言？</div>
+				<div class="action">
+					<div class="btn">确&nbsp;定</div>
+					<div class="btn gray">取&nbsp;消</div>
+				</div>
+			</div>
+		</div>
+
+	</body>
+	
+	<script>
+			var tan = document.getElementById("tan");
+			var hhh = document.documentElement.clientHeight;
+			tan.style.top = parseInt(hhh/2) - 150 + "px";
+	</script>
+
+</html>

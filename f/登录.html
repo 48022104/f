@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link href="css/base.css" rel="stylesheet" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+	</head>
+
+	<body>
+
+		<div class="all_top">
+			<div class="all">
+				<div class="logo"><img src="images/logo.png" /></div>
+				<div class="nav_in">给我留言
+					<div class="tips">
+						<div class="tips_in">留言分类1</div>
+						<div class="tips_in">留言分类2</div>
+						<div class="tips_in">我的提议</div>
+					</div>
+				</div>
+				<div class="nav_line"></div>
+				<div class="nav_in">法宝结缘
+					<div class="tips"></div>
+				</div>
+				<div class="nav_line"></div>
+				<div class="nav_in">法会掠影
+					<div class="tips">
+						<div class="tips_in">历次活动</div>
+						<div class="tips_in">学员心得</div>
+					</div>
+				</div>
+				<div class="nav_line"></div>
+				<div class="nav_in">课程学习
+					<div class="tips">
+						<div class="tips_in">课程分类1</div>
+						<div class="tips_in">课程分类2</div>
+						<div class="tips_in">课程分类3</div>
+						<div class="tips_in">课程分类4</div>
+					</div>
+				</div>
+				<div class="nav_line"></div>
+				<div class="nav_in">甘露法语
+					<div class="tips">
+						<div class="tips_in">寒笳集开示</div>
+						<div class="tips_in">禅林宝讯开示</div>
+					</div>
+				</div>
+				<div class="nav_line"></div>
+				<div class="nav_in">法&nbsp;&nbsp;讯
+					<div class="tips">
+						<div class="tips_in">最新动态</div>
+						<div class="tips_in">法会通启</div>
+					</div>
+				</div>
+				<div class="nav_line"></div>
+				<div class="nav_in">关于我们
+					<div class="tips"></div>
+				</div>
+				<div class="nav_line"></div>
+				<div class="nav_in nav_choosed">首&nbsp;&nbsp;页
+					<div class="tips"></div>
+				</div>
+			</div>
+			<div class="nav_m" id="nav_m">☰
+				<div class="nav_m_in" id="nav_list" style="display: none;">
+					<div class="nav_m_in_point"></div>
+					<div class="nav_m_in_list">首页</div>
+					<div class="nav_m_in_list">关于我们</div>
+					<div class="nav_m_in_list">法&nbsp;讯</div>
+					<div class="nav_m_in_list">甘露法语</div>
+					<div class="nav_m_in_list">法会掠影</div>
+					<div class="nav_m_in_list">法宝结缘</div>
+					<div class="nav_m_in_list">给我留言</div>
+					<div class="nav_m_in_list">简繁体切换</div>
+				</div>
+
+			</div>
+			<div class="nav_m2" onclick="javascript :history.back(-1);">‹</div>
+		</div>
+		<div class="top_space"></div>
+		<div id="ltxt" class="pic_nochange" style="background: url(images/bg2.jpg) center no-repeat; background-size: cover;">
+			<div class="txt" id="ltxt_in">人生八苦，生苦，老苦，病苦，死苦，求不得苦，爱别离苦，怨憎会苦，五取蕴苦；万苦贪嗔痴，一经戒定慧</div>
+		</div>
+		<div class="all">
+
+			<div class="zhuce">
+				<div class="all_title">登录</div>
+				<div class="left">账号：</div>
+				<div class="right"><input type="text" placeholder="请输入您的手机号或者账号" /></div>
+				<div class="left">密码：</div>
+				<div class="right"><input type="password" placeholder="请输入您的密码" /></div>
+				
+				<!--<div class="hello">错了错了</div>-->
+				<div class="action"></div>
+				<div class="big_btn">确认登录</div>
+				<div class="txt">
+					<a href="#">注册账号</a><a href="#">忘记密码</a>
+					
+				</div>
+
+			</div>
+		</div>
+
+		<div class="clear"></div>
+		<div class="all_bottom">
+			Copyright © 斋戒学会 All rights reserved.<br />
+			<font>
+				<a href="#">首页</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">关于我们</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">法&nbsp;&nbsp;讯</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">甘露法语</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">课程学习</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">法会掠影</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">法宝结缘</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">给我留言</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">简繁体切换</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+				<a href="#">后台登录</a><br />
+			</font>邮箱：616161219@qq.com&nbsp;&nbsp;微信公众号：斋戒学会（zhaijiexh）
+		</div>
+		<div class="backtop" id="backtop">▲<br />
+			<font>TOP</font>
+		</div>
+	</body>
+	<script src="js/top.js" type="application/javascript"></script>
+
+	<script>
+		var lists = document.getElementById("list").getElementsByClassName("list");
+
+		for(var i = 0; i < lists.length; i++) {
+
+			lists[i].index = i;
+			lists[i].onclick = function() {
+				for(i = 0; i < lists.length; i++) {
+					lists[i].className = "list";
+
+				}
+				this.className = "list list_choosed";
+
+			};
+		}
+	</script>
+	<script src="js/little_title.js" type="text/javascript"></script>
+
+</html>
