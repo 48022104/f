@@ -229,6 +229,7 @@
 		width: 220px;
 		height: 220px;
 	}
+	
 	.index_left .content .txt {
 		cursor: pointer;
 	}
@@ -243,6 +244,41 @@
 		text-indent: 2em;
 		word-break: break-all;
 	}
+	
+	
+	.content2 {
+		padding-bottom: 40px;
+		clear: both;
+	}
+	.content2 .pic {
+		width: 220px;
+		height: 220px;
+		float: left;
+	}
+	.content2 .pic img {
+		width: 220px;
+		height: 220px;
+	}
+	
+	.index_left .content2 .txt {
+		cursor: pointer;
+	}
+	.index_left .content2 .pic {
+		cursor: pointer;
+	}
+	.content2 .txt {
+		float: left;
+		width: 540px;
+		margin-left: 20px;
+		line-height: 30px;
+		text-indent: 2em;
+		word-break: break-all;
+	}
+	
+	
+	
+	
+	
 	.all_top .nav_in .tips .tips_in:last-child {
 		border: 0px;
 	}
@@ -277,7 +313,7 @@
 		color: #8f6654;
 	}
 	.content2 {
-		padding-bottom: 10px;
+		padding-bottom: 40px;
 	}
 	.content2 .list {
 		border-bottom: dashed 1px #D7D7D7;
@@ -1382,7 +1418,29 @@
 		float: left;
 		text-indent: 2em;
 		word-break: break-all;
+		line-height: 1.7rem;
 	}
+	
+	.content2 {
+		clear: both;
+		margin-bottom: 2rem;
+	}
+	.content2 .pic {
+		width: 20%;
+		float: left;
+	}
+	.content2 .pic img{ width: 100%;}
+	.content2 .txt {
+		width: 75%;
+		    float: left;
+		    line-height: 1.9rem;
+		    padding-left: 5%;
+		    word-break: break-all;
+			height: 5.7rem;
+			overflow: hidden;
+	}
+	
+	
 	.content1 {
 		width: 100%;
 	}
