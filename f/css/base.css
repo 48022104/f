@@ -251,13 +251,13 @@
 		clear: both;
 	}
 	.content2 .pic {
-		width: 220px;
-		height: 220px;
+		width: 100px;
+		height: 100px;
 		float: left;
 	}
 	.content2 .pic img {
-		width: 220px;
-		height: 220px;
+		width: 100px;
+		height: 100px;
 	}
 	
 	.index_left .content2 .txt {
@@ -268,11 +268,14 @@
 	}
 	.content2 .txt {
 		float: left;
-		width: 540px;
+		width: 660px;
 		margin-left: 20px;
 		line-height: 30px;
 		text-indent: 2em;
 		word-break: break-all;
+		height: 90px;
+		overflow-y: hidden;
+		margin-top: 5px;
 	}
 	
 	
